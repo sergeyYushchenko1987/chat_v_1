@@ -1,0 +1,13 @@
+.myButton{
+    padding: 5px 15px;
+    color:white;
+    font-size: 18px;
+    background:deepskyblue;
+    border: 1px solid deepskyblue;
+    cursor: pointer;
+    width: 100%;
+}
+.myButton:hover{
+    background-color: lightgrey;
+    color:white;
+}

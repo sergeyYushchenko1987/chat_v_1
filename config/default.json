@@ -1,0 +1,11 @@
+{
+  "mySqlConfig": {
+    "host": "localhost",
+    "user": "root",
+    "password": "31052005",
+    "database": "db_chat"
+  },
+  "const": {
+    "port": "4000"
+  }
+}

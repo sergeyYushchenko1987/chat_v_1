@@ -1,0 +1,17 @@
+.myCheckBox {
+    border: 1px solid dodgerblue;
+    font-size: 25px;
+    padding:15px 30px;
+    margin-bottom: 10px;
+}
+.nameCheck{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkBox{
+    transform: scale(2);
+    outline: none;
+}
+
+

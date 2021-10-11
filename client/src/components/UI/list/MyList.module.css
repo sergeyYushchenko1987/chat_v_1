@@ -1,0 +1,33 @@
+.myList{
+    width: 100%;
+    list-style: none;
+    padding:20px 20px;
+    border: 3px solid deepskyblue;
+    box-sizing: border-box;
+}
+.date{
+    color: dodgerblue;
+    font-size: 10px;
+    background-color: inherit;
+}
+.time{
+    color: dodgerblue;
+    font-size: 10px;
+    background-color: inherit;
+}
+.item{
+padding:10px 20px;
+}
+.item:nth-child(odd){
+background-color: deepskyblue;
+}
+.author{
+    font-weight: bold;
+    background-color: inherit;
+}
+.body_message{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: inherit;
+}

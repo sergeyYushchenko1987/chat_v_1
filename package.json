@@ -1,0 +1,47 @@
+{
+  "name": "chat_v_1",
+  "version": "1.0.0",
+  "description": "creating chat using socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "serve": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyYushchenko1987/chat_v_1.git"
+  },
+  "author": "Sergey Yushchenko <yu.serhii@improveit.solutions>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyYushchenko1987/chat_v_1/issues"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@controllers": "src/controllers",
+    "@models": "src/models",
+    "@servers": "src/servers",
+    "@routes": "src/routes",
+    "@services": "src/services",
+    "@sockets": "src/sockets"
+  },
+  "homepage": "https://github.com/sergeyYushchenko1987/chat_v_1#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.2.0",
+    "validator": "^13.6.0"
+  }
+}
