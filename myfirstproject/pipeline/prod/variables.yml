@@ -9,9 +9,9 @@
 # Any extra variables not found in the original file have been ignored.
 #
 aws_access_key: ((aws.access_key))
-aws_default_region: eu-west-2
+aws_default_region: us-east-2
 aws_secret_key: ((aws.secret_key))
-config_git_branch: dev
+config_git_branch: master
 customer: hotel-spider
 env: prod
 git_repository: git@github.com:sergeyYushchenko1987/chat_v_1.git
